@@ -1,0 +1,375 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color:#F7F7F7;
+    width: 100%;
+    height: 80px;
+}
+#start>img{
+    padding-top: 5px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+#start>h1{
+    float: left;
+    margin-top: 25px;
+    margin-left: 5PX;
+}
+#ul>button{
+    float: right;
+    background-color: #FC8B6D;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+#ul>img{
+    float: right;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+#ul>a{
+    float: right;
+    text-decoration: none;
+    border: none;
+    color:#A2A2A2;
+    margin-top: 30px;
+    margin-right: 60px;
+    font-size:20px;
+}
+#mid{
+    float: left;
+    background-color:#F7F7F7;
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+}
+#mid>h1{
+    float: left;
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight:bolder;
+    margin-bottom: 20px;
+    width: 50%;
+}
+#mid>img{
+    float: right;
+    margin-right: 80px;
+    width: 40%;
+    margin-left:10px ;
+}
+#mid>p{
+    margin-left: 40px;
+    margin-top:30px;
+    float: left;
+    width: 45%;
+}
+#mid>button{
+    background-color:#FD5E39;
+    color: white;
+    border: none;
+    padding: 10px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 109px;
+    width: 8%;
+}
+#mid>span>button{
+    background-color: #010101;
+    color:white ;
+    border: none;
+    padding: 10px;
+    float: left;
+    margin-top: 109px;
+    margin-left: 20px;
+    width: 8%;
+}
+#Services>p{
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+#parents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#card1{
+    border: 2px solid grey;
+    width: 25%;
+    height: 250px;
+}
+#card1>img{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#card1>h4{
+    color: orange;
+    margin-left: 140px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#card2{
+    margin-left: 40px;
+    border: 2px solid grey;
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+#card2>img{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#card2>h4{
+    color: orange;
+    margin-left: 140px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#card3{
+    margin-left: 40px;
+    border: 2px solid grey;
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+#card3>img{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#card3>h4{
+    color: orange;
+    margin-left: 140px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#button>button{
+    background-color: #010101;
+    color:white ;
+    border: none;
+    width: 8%;
+margin-top: 30px;
+padding: 10px;
+}
+#fresh{
+    width: 100%;
+}
+#fresh>h1{
+    margin-top: 40px;
+}
+#fresh>p{
+    margin-top: 10px;
+}
+#best>h2{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 30px;
+    width: 90%;
+}
+#best>p{
+    float: left;
+    width: 65%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#best>img{
+    float: right;
+    margin-right: 120px;
+}
+#best>button{
+    border: none;
+    background-color: #010101;
+    margin-left: 70px;
+    padding: 10px;
+    margin-top: 30px;
+    color: white;
+    width: 8%;
+}
+#best1{
+    margin-top: 30px;
+}
+#best1>h2{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 30px;
+    width: 90%;
+}
+#best1>p{
+    float: left;
+    width: 65%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#best1>img{
+    float: right;
+    margin-right: 160px;
+    margin-bottom: 10px;
+}
+#best1>button{
+    border: none;
+    background-color: #010101;
+    margin-left: 70px;
+    padding: 10px;
+    margin-top: 30px;
+    color: white;
+    width: 8%;
+}
+#best2{
+    margin-top: 30px;
+}
+#best2>h2{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 30px;
+    width: 90%;
+}
+#best2>p{
+    float: left;
+    width: 65%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#best2>img{
+    float: right;
+    margin-right: 120px;
+}
+#best2>button{
+    border: none;
+    background-color: #010101;
+    margin-left: 70px;
+    padding: 10px;
+    margin-top: 30px;
+    color: white;
+    width: 8%;
+}
+#john{
+    margin-top: 100px;
+}
+#john>p{
+    margin-top: 10px;
+}
+#john>img{
+border-radius: 20px;
+margin-top: 30px;
+}
+#parag>p{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+#contact{
+    margin-top: 120px;
+}
+#contact>h2{
+    float: left;
+    width: 50%;
+    margin-left: 70px;
+}
+#contact>input{
+    border: none;
+    background: none;
+    width: 50%;
+    float: left;
+    border-bottom:1px solid grey;
+    margin-left: 70px;
+    padding: 10px;
+    margin-top:15px ;
+}
+#contact>img{
+    float: right;
+    margin-right:100px ;
+    margin-left: 250px;
+}
+#contact>button{
+    float: left;
+    width: 8%;
+    background-color:#FD5E39;
+    color: white;
+    padding: 10px;
+margin-left: 70px;
+border: none;
+margin-top: 50px;
+}
+#container{
+    width: 90%;
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+#cad1{
+    width: 10%;
+    height: 50px;
+    margin-left: 80px;
+}
+#cad1>h3{
+    color: #A2A2A2;
+    margin-bottom: 10px;
+}
+#cad1>p{
+    padding-top: 10px;
+}
+#cad2{
+    width: 10%;
+    height: 50px;
+    margin-left: 20px;
+}
+#cad2>h3{
+    color: #A2A2A2;
+    margin-bottom: 10px;
+}
+#cad2>p{
+    padding-top: 10px;
+}
+#cad3{
+    width: 10%;
+    height: 50px;
+    margin-left: 20px;
+}
+#cad3>h3{
+    color: #A2A2A2;
+    margin-bottom: 10px;
+}
+#cad3>p{
+    padding-top: 10px;
+}
+#cad4{
+    margin-left: 20px;
+}
+#cad4>h3{
+    margin-bottom: 10px;
+}
+#cad4>h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#cad4>input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#cad4>button{
+    background-color: #FD5E39;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 50%;
+}
+#copy{
+    width: 100%;
+    background-color:#EFEDEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
